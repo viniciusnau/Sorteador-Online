@@ -1,0 +1,212 @@
+.detailsContainer {
+    display: flex;
+    align-items: flex-start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detailsColumn {
+    flex: 1;
+    padding: 0 1rem;
+    overflow: auto;
+}
+
+.detailsColumn::-webkit-scrollbar {
+    display: none;
+}
+
+.detailsColumn {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.arrowIcon {
+    font-size: 2rem;
+    color: #000;
+    margin: 0 1rem;
+    align-self: center;
+}
+
+.accordionHover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+    margin-right: 1rem;
+}
+
+.smallDate {
+    font-size: 0.80rem;
+}
+
+.changed {
+    background-color: #ffeb3b;
+    font-weight: bold;
+}
+
+.summaryContent {
+    display: flex;
+    align-items: center;
+    text-align: initial;
+    padding-right: 0.5rem;
+}
+
+.profileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.imageWithIcon {
+    position: relative;
+    display: inline-block;
+}
+
+.upArrowIcon {
+    position: absolute;
+    bottom: 3rem;
+    right: -0.2rem;
+    font-size: 2rem;
+    color: #000;
+}
+
+.hour {
+    overflow: visible;
+}
+
+.currentData {
+    margin-top: 1.5rem;
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+}
+
+.containerLog {
+    display: flex;
+    margin: 0 0 8rem 5.5rem;
+    width: 100vw;
+}
+
+.inputs {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 0;
+    margin-top: 0.5rem;
+}
+
+.inputOutsourced {
+    margin: 0 0.5rem 0 0.5rem;
+    height: 2.25rem;
+    width: 8.5rem;
+}
+
+.inputText::placeholder {
+    color: #9e9e9e;
+    font-style: italic;
+    justify-content: center;
+}
+
+.inputActive {
+    margin: 0 0.5rem 0 1rem;
+    height: 2.25rem;
+    width: 5.8rem;
+}
+
+.inputRole{
+    margin: 0 0.5rem;
+    height: 2.25rem;
+    width: 14rem;
+}
+
+.menuItemPlaceholder {
+    color: #9e9e9e;
+    font-style: italic;
+}
+
+.input {
+    margin: 0 0.5rem;
+    height: 2.25rem;
+    width: 16.4rem;
+}
+
+.inputCity {
+    margin: 0 0.5rem;
+    height: 2.25rem;
+    width: 14rem;
+}
+
+.buttons {
+    margin-left: 0.5rem;
+}
+
+.searchBttn {
+    margin-left: 0.7rem;
+}
+
+.log {
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 19.5rem;
+    margin-bottom: 1rem;
+}
+
+.calendarWrapper {
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+    margin-right: 7rem;
+}
+
+.imageUserUpdate{
+    margin-top: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%
+}
+
+.photoContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.oldPhoto,
+.newPhoto {
+    width: 8rem; 
+    height: 8rem; 
+    margin: 0 10px; 
+}
+
+.arrowContainer {
+    display: flex;
+    align-items: center; 
+}
+
+.arrowIcon {
+    font-size: 24px;
+}
+
+.detailsColumnUserUpdate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerUserUpdate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerUser{
+    width: 100%;
+    justify-content: center;
+}

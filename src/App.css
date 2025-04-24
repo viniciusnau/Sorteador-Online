@@ -1,0 +1,62 @@
+:root {
+  --font-size: 1rem;
+  --cursor-pointer: pointer;
+  --cursor-not-allowed: not-allowed;
+  --cursor-default: default;
+  --cursor-text: text;
+}
+
+body {
+  margin: 0;
+  
+}
+
+.App {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+main{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: space-between;
+}
+.AppBody {
+  padding: 20px;
+}
+
+.invert-colors {
+  filter: invert(70%);
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+@media screen and (min-width: 1800px) {
+  .App {
+    background: linear-gradient(
+      0deg,
+      rgba(204, 34, 41, 0.1516981792717087) 0%,
+      rgba(255, 255, 255, 1) 17.5%,
+      rgba(159, 197, 77, 0.14609593837535018) 100%
+    );
+  }
+}
+
+@media screen and (max-width: 1799px) {
+  .App {
+    background: linear-gradient(
+      270deg,
+      rgba(204, 34, 41, 0.1516981792717087) 0%,
+      rgba(255, 255, 255, 1) 17.5%,
+      rgba(159, 197, 77, 0.14609593837535018) 100%
+    );
+  }
+}

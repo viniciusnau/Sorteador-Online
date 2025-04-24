@@ -1,0 +1,450 @@
+.content {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  border: 4px solid #f0f0f0;
+  max-height: 33rem;
+}
+
+.tableContainer {
+  max-height: 33rem;
+}
+
+.explanatoryText {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 4px solid #ccc;
+  border-radius: 0.5rem;
+  overflow: scroll;
+  display: table;
+  min-width: 100%;
+}
+ 
+.contentTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+
+.paginationSize{
+  display: flex;
+  width: 10rem;
+  height: 2.25rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  font-weight: bold;
+  font-size: var(--font-size);
+}
+  
+.columnHeader {
+  flex: 1;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.tableBody {
+  display: flex;
+  flex-direction: column;
+  max-height: 29.5rem;
+  overflow-x: auto;
+}
+
+.nameText {
+  width: 100%;
+  justify-content: center;
+}
+
+.nameContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1rem;
+}
+
+.imgUser {
+  margin: 0 0 0 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nameImage {
+  display: flex;
+  justify-content: flex-start;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  margin: 0 1rem 0 1rem
+}
+
+.nameEditImage {
+  cursor: var(--cursor-pointer);
+}
+
+.nameEditImage:hover {
+  border-color: rgba(0, 0, 0, 0.9);
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  height: 100%;
+}
+
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  padding: 0.25rem 0;
+  min-height: 5.3rem;
+  max-height: 9rem;
+}
+
+.tableRowNormal {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  padding: 0.25rem 0;
+  min-height: 5.3rem;
+  max-height: 9rem;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0.30rem 0;
+  flex-shrink: 0;
+}
+
+.tableCell {
+  flex: 1;
+  min-width: 4rem;
+  max-width: 100%;
+  padding: 0.50rem 0.5rem 0.50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word; 
+  word-break: break-word;
+  white-space: normal;
+  overflow-wrap: anywhere; 
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customPagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.customPagination li {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.buttonAdmin {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  background-color: var(--first-button-color);
+  box-shadow: 0 10px 10px -10px var(--shadow-color);
+}
+
+.outsourced {
+  margin-left: 0.8rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  background-color: var(--first-button-color);
+  box-shadow: 0 10px 10px -10px var(--shadow-color);
+}
+
+.containerDownload {
+  width: 10rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonAdminSave {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  background-color: var(--first-button-color);
+  box-shadow: 0 10px 10px -10px var(--shadow-color);
+  margin: 0 0.8rem 0 0;
+}
+
+.backButton,
+.downloadButton {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--first-button-color);
+  box-shadow: 0 10px 10px -10px var(--shadow-color);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  background-color: var(--first-button-color);
+  box-shadow: 0 10px 10px -10px var(--shadow-color);
+}
+
+.downloadButton {
+  border-radius: 5rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem 0.75rem 0;
+  box-shadow: 0 10px 10px -10px var(--shadow-color);
+}
+
+.displayButtons {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 4.5rem;
+  margin: 0 1rem 0 0;
+}
+
+.optionsButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backButton {
+  margin: 0 1rem;
+}
+
+.selectInput {
+  margin-top: 0.4rem;
+  margin-left: 2.1rem;
+  width: 10.1rem;
+  max-width: 10.1rem;
+}
+
+.selectInputTable {
+  height: 2.5rem;
+  width: 8rem;
+  max-width: 8rem;
+}
+
+.selectRoleInputTable {
+  height: 2.5rem;
+  width: 6.5rem;
+  max-width: 6.5rem;
+}
+
+.selectIsActiveTable {
+  height: 2.5rem;
+  width: 6rem;
+  max-width: 6rem;
+}
+
+.selectDateTable {
+  width: 7.5rem;
+  max-width: 7.5rem;
+}
+
+.roleInput {
+  margin-top: 0.4rem;
+  width: 10.1rem;
+  max-width: 10.1rem;
+}
+
+.spinning {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.button:hover,
+.backButton:hover,
+.downloadButton:hover {
+  background-color: var(--first-button-color-hover);
+}
+
+.button:disabled,
+.backButton:disabled,
+.downloadButton:disabled {
+  background-color: var(--first-button-color-disabled);
+  cursor: var(--cursor-default);
+}
+
+.tableRow:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: var(--cursor-pointer);
+}
+
+.tableRowNormal:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: var(--cursor-default);
+}
+
+@media (max-width: 750px) {
+  .content {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .headerTable {
+    font-size: calc(var(--font-size) - 0.15rem);
+  }
+
+  .columnTitle,
+  .tableCell,
+  .backButton,
+  .currentPage,
+  .empty {
+    font-size: calc(var(--font-size) - 0.3rem);
+  }
+
+  .button,
+  .downloadButton {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+  }
+
+  .backButton {
+    width: 4rem;
+    height: 2rem;
+    padding: 0;
+  }
+}
+
+@media (min-width: 751px) {
+  .content {
+    width: 80vw;
+  }
+
+  .headerTable,
+  .currentPage {
+    font-size: calc(var(--font-size) + 0.2rem);
+  }
+
+  .columnTitle,
+  .tableCell,
+  .backButton,
+  .empty {
+    font-size: var(--font-size);
+  }
+
+  .button,
+  .downloadButton {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .backButton {
+    width: 5rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    width: 100vw;
+    max-width: 90%;
+  }
+
+  .headerTable {
+    font-size: calc(var(--font-size) + 0.25rem);
+  }
+
+  .columnTitle,
+  .tableCell,
+  .backButton,
+  .currentPage,
+  .empty {
+    font-size: var(--font-size);
+  }
+
+  .button,
+  .downloadButton {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .backButton {
+    width: 5rem;
+    height: 2.75rem;
+  }
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+.spin svg {
+  opacity: 1;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

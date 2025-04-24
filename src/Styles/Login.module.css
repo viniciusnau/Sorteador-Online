@@ -1,0 +1,156 @@
+@import "../colors.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.25rem;
+  font-size: var(--font-size) + 1rem;
+}
+
+.formGroup {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inputText,
+.inputPasswordText {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inputText .MuiInputBase-root,
+.inputPasswordText .MuiInputBase-root {
+  height: 3rem;
+  padding: 0 0 0 1rem;
+  font-size: var(--font-size);
+}
+
+.inputText .MuiInputLabel-root,
+.inputPasswordText .MuiInputLabel-root {
+  font-size: var(--font-size);
+}
+
+.password {
+  display: flex;
+  align-items: center;
+}
+
+.passwordIcon {
+  margin-left: 0.5rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  background-color: var(--second-button-color) !important;
+  color: initial !important;
+  margin: 0 0 1.5rem 0;
+}
+
+.google:hover {
+  background-color: var(--second-button-color-hover) !important;
+}
+
+.icon {
+  width: 2.25rem;
+  margin: 0 0.5rem 0 0;
+  padding: 0.25rem;
+}
+
+.login {
+  font-size: calc(var(--font-size) - 0.25rem);
+}
+
+.forgotPassword {
+  display: block;
+  text-align: center;
+  margin-top: 0;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.formButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 2.5rem;
+  width: 7.5rem;
+  font-size: var(--font-size);
+}
+
+.lineContainer {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.line {
+  flex-grow: 1;
+  height: 0.15rem;
+  width: 6.5rem;
+  background-color: var(--second-button-color-focus);
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.text {
+  margin: 0 1rem;
+  color: var(--first-text-color-disabled);
+  font-size: 1rem;
+}
+
+@media (max-width: 750px) {
+  .title {
+    font-size: calc(var(--font-size) - 5rem);
+  }
+
+  .label {
+    font-size: 0.8rem;
+  }
+
+  .inputText,
+  .inputPasswordText {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 751px) {
+  .title {
+    font-size: calc(var(--font-size) + 1rem);
+  }
+
+  .label {
+    font-size: 1rem;
+  }
+
+  .inputText,
+  .inputPasswordText {
+    width: 17.5rem;
+  }
+}

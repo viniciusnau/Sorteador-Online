@@ -1,0 +1,23 @@
+@import '../colors.css';
+
+.container {
+    box-shadow: var(--box-shadow);
+    cursor: var(--cursor-pointer);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--first-button-color);
+    color: #000000;
+  }
+
+  .container:hover {
+    background-color: var(--first-button-color-hover);
+    color: var(--second-text-color-hover);
+      transform: scale(1.05);
+  }
+
+  .container:disabled {
+    background-color: var(--fifth-button-color-disabled);
+    cursor: var(--cursor-not-allowed);
+    color: var(--second-text-color-disabled);
+  }   

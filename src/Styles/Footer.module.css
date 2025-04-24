@@ -1,0 +1,125 @@
+@import "../colors.css";
+
+.footer::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: transparent;
+}
+
+.footer::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.footer::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 0.2rem;
+}
+
+.footer::-webkit-scrollbar-thumb:hover {
+  background-color: #bbb;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  position: relative;
+  margin-top: auto;
+  padding: auto;
+  margin-bottom: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  box-shadow: 0 -10px 8px -10px var(--light-shadow-color);
+  height: auto;
+}
+
+.topics {
+  display: flex;
+  padding: 0.7rem 0 0 0;
+  justify-content: center;
+  gap: 5rem;
+  align-items:center;
+  list-style-type: none;
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.copyright {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 0.4rem 0;
+}
+
+.centeredFooter {
+  padding: 1rem;
+}
+
+.redirect {
+  color: var(--first-text-color);
+}
+
+.navLinks button {
+  background: none;
+  border: none;
+  color: #555;
+  cursor: var(--cursor-pointer);
+  font-size: calc(var(--font-size) - 0.12rem);
+  padding: 0;
+}
+
+.navLinks button:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .topics{
+    margin: 0 20px;
+    padding: 5px 0;
+    gap: 10px;
+  }
+  .description{
+    max-width: 30%;
+  }
+  .description,
+  .copyright {
+    font-size: calc(var(--font-size) - 0.6rem);
+    margin: 2px;
+    padding: 1px;
+  }
+  .copyright {
+    padding: 0;
+    align-items: flex-end;
+    max-width: 40%;
+  }
+}
+
+@media ((min-width: 800px) and (max-width: 1450px)) {
+  .topics{
+    margin: 0 20px;
+    padding: 10px 0;
+    gap: 10px;
+  }
+  .description{
+    max-width: 30%;
+  }
+  .description,
+  .copyright {
+    font-size: calc(var(--font-size) - 0.25rem);
+    margin: 2px;
+    padding: 1px;
+  }
+  .copyright {
+    padding: 0;
+    align-items: flex-end;
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 1451px) {
+  .description{
+    max-width: 25%;
+  }
+  .copyright {
+    align-items: flex-end;
+    max-width: 40%;
+  }
+}

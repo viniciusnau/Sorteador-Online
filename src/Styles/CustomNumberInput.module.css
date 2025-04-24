@@ -1,0 +1,31 @@
+.customInput {
+    -webkit-appearance: none;  
+    -moz-appearance: none;   
+    appearance: none;         
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.23); 
+    outline: none;
+    box-shadow: none;          
+    padding: 0 0.75rem;       
+    border-radius: 4px;       
+    height: 2.4rem;          
+    width: 6.7rem;              
+    margin: 0;              
+    transition: border-color box-shadow; 
+  }
+  
+  .customInput:hover {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .customInput:focus {
+    border-color: #1976d2; 
+    box-shadow: 0 0 0 1px #1976d2; 
+    border-width: 1px;   
+  }
+  
+  .customInput:disabled {
+    border-color: rgba(0, 0, 0, 0.12);
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+  

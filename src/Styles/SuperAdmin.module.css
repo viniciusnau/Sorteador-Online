@@ -1,0 +1,95 @@
+@import "../colors.css";
+
+.centerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.containerInputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 0.5rem 0;
+}
+
+.containerTable {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tableUsers {
+    display: flex;
+    justify-content: center;
+    width: 65vw;
+}
+
+.calendarContainer {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    height: 3rem;
+}
+
+.button {
+    margin: 0.5rem;
+    height: 2.75rem;
+    padding: 0.65rem;
+    border-radius: 0.5rem;
+}
+
+.inputUser {
+    margin: 0 0 0 5rem;
+}
+
+.inputUser {
+    margin: 0 0 0 5rem;
+}
+
+.inputText::placeholder {
+    font-style: italic; 
+    justify-content: center;
+}
+
+.menuItemPlaceholder {
+    font-style: italic;
+}
+
+input[class*="DatePicker__input"] {
+    font-family:inherit;
+    font-size: var(--font-size);
+    -webkit-appearance: none;  
+    -moz-appearance: none;   
+    appearance: none;         
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.23); 
+    outline: none;
+    box-shadow: none;          
+    padding: 0 0.75rem;       
+    border-radius: 4px;       
+    height: 2.175rem;          
+    width: 16rem;              
+    margin: 0;              
+    transition: border-color box-shadow; 
+  }
+
+  input[class*="DatePicker__input"]:hover {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  input[class*="DatePicker__input"]:focus {
+    border-color: #1976d2; 
+    box-shadow: 0 0 0 1px #1976d2; 
+    border-width: 1px;  
+  }
+
+  input[class*="DatePicker__input"]::placeholder {
+    text-align: left;
+    font-style: italic;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #6d676793;
+  }
+
